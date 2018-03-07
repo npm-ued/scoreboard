@@ -4,6 +4,20 @@ Each example from the blog post series can be found within this repo. You can ei
 ## Installation
 You'll have to do ti this way until Truffle allows a way for others to create "boxes".
 
+## Installation solc 
+
+```$ npm install solc -g```
+
+```$ npm install -g solc-cli```
+
+## Installation testrpc 
+
+```$ npm install -g ethereumjs-testrpc```
+
+## Installation truffle v3.3.1(npm install -g truffle@v3.3.1 truffle-expect truffle-config web3)
+
+
+
 ### Linux
 1. To download the main repo
 ```bash
