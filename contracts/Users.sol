@@ -13,7 +13,7 @@ contract Users {
     Participant[] public users;
     uint userCount;
     // add a new user
-    function addUser(bytes32 userName, uint userPoint)  returns (uint userID, bool success) {
+    function addUser(bytes32 userName, uint userPoint) payable  returns (uint userID, bool success) {
         userID = userCount++;
         
         Participant memory newUser;
