@@ -92,9 +92,10 @@ var App = {
   },
 
   givePoints: function(id, amount) {
+    // event.preventDefault();
     var name = $.trim($("#name").val())||"default",points=$.trim($("#point").val())||0;
     Users.deployed().then(function(instance){
-      return instance.addUser(name,points,{from: web3.eth.coinbase,gas:100000});
+      return instance.addUser(name,points,{from: web3.eth.coinbase,gas:1000000});
     }).then(function(result){
         console.log(result)
         if(result){

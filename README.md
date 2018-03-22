@@ -39,3 +39,5 @@ npm install lite-server --save-dev
 ```bash
 npm run dev
 ```
+
+testrpc
